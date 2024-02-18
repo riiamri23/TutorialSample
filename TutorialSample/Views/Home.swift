@@ -20,6 +20,12 @@ struct HomeApp: View {
                 NavigationLink(destination: LandmarkList()) {
                     Text("LandmarkList")
                 }
+                NavigationLink(destination: WebviewExample()) {
+                    Text("WebviewExample")
+                }
+                NavigationLink(destination: BookListView()) {
+                    Text("BookListView")
+                }
             }
         
         }
