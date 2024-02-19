@@ -26,6 +26,9 @@ struct HomeApp: View {
                 NavigationLink(destination: BookListView()) {
                     Text("BookListView")
                 }
+                NavigationLink(destination: CalculatorExample()) {
+                    Text("01 Calculator Example")
+                }
             }
         
         }
