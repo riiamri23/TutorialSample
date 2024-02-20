@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300DC15F2B84E069001A8D69 /* BookSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300DC15E2B84E069001A8D69 /* BookSamples.swift */; };
+		300DC1612B84E232001A8D69 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300DC1602B84E232001A8D69 /* Preview.swift */; };
 		3024A55E2B80627700EF5A0A /* WebviewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024A55D2B80627700EF5A0A /* WebviewExample.swift */; };
 		3048DFA52B819BE6008FE168 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3048DFA42B819BE6008FE168 /* Book.swift */; };
 		3048DFAB2B81C7DB008FE168 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3048DFAA2B81C7DB008FE168 /* BookListView.swift */; };
@@ -15,6 +17,7 @@
 		3048DFB42B81E63D008FE168 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3048DFB32B81E63D008FE168 /* RatingsView.swift */; };
 		305050892B7FA9DA00447C7E /* GaugeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305050882B7FA9DA00447C7E /* GaugeExample.swift */; };
 		3050508B2B7FAC2900447C7E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050508A2B7FAC2900447C7E /* Home.swift */; };
+		307FBB462B8393050004CD64 /* CalculatorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307FBB452B8393050004CD64 /* CalculatorExample.swift */; };
 		30B0B23F2B0BA376009B2886 /* TutorialSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B0B23E2B0BA376009B2886 /* TutorialSampleApp.swift */; };
 		30B0B2412B0BA376009B2886 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B0B2402B0BA376009B2886 /* ContentView.swift */; };
 		30B0B2432B0BA379009B2886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B0B2422B0BA379009B2886 /* Assets.xcassets */; };
@@ -30,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		300DC15E2B84E069001A8D69 /* BookSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSamples.swift; sourceTree = "<group>"; };
+		300DC1602B84E232001A8D69 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 		3024A55D2B80627700EF5A0A /* WebviewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewExample.swift; sourceTree = "<group>"; };
 		3048DFA42B819BE6008FE168 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		3048DFAA2B81C7DB008FE168 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
@@ -38,6 +43,7 @@
 		3048DFB32B81E63D008FE168 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 		305050882B7FA9DA00447C7E /* GaugeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeExample.swift; sourceTree = "<group>"; };
 		3050508A2B7FAC2900447C7E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		307FBB452B8393050004CD64 /* CalculatorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorExample.swift; sourceTree = "<group>"; };
 		30B0B23B2B0BA376009B2886 /* TutorialSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B0B23E2B0BA376009B2886 /* TutorialSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialSampleApp.swift; sourceTree = "<group>"; };
 		30B0B2402B0BA376009B2886 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +116,14 @@
 			path = Gauge;
 			sourceTree = "<group>";
 		};
+		307FBB442B8392EB0004CD64 /* 01_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				307FBB452B8393050004CD64 /* CalculatorExample.swift */,
+			);
+			path = 01_Calculator;
+			sourceTree = "<group>";
+		};
 		30B0B2322B0BA376009B2886 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				30B0B2452B0BA379009B2886 /* Preview Assets.xcassets */,
+				300DC15E2B84E069001A8D69 /* BookSamples.swift */,
+				300DC1602B84E232001A8D69 /* Preview.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -169,6 +185,7 @@
 		30B0B2542B0BA84A009B2886 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				307FBB442B8392EB0004CD64 /* 01_Calculator */,
 				3048DFA12B819B3D008FE168 /* Crudbook */,
 				3024A5582B80611200EF5A0A /* Webview */,
 				305050872B7FA97B00447C7E /* Gauge */,
@@ -260,8 +277,10 @@
 			files = (
 				30B0B2412B0BA376009B2886 /* ContentView.swift in Sources */,
 				30B0B25D2B0BB0ED009B2886 /* CircleImage.swift in Sources */,
+				300DC1612B84E232001A8D69 /* Preview.swift in Sources */,
 				3048DFA52B819BE6008FE168 /* Book.swift in Sources */,
 				30B0B2582B0BACC9009B2886 /* LandmarkLists.swift in Sources */,
+				307FBB462B8393050004CD64 /* CalculatorExample.swift in Sources */,
 				3050508B2B7FAC2900447C7E /* Home.swift in Sources */,
 				3048DFB42B81E63D008FE168 /* RatingsView.swift in Sources */,
 				30B0B2512B0BA644009B2886 /* ModelData.swift in Sources */,
@@ -275,6 +294,7 @@
 				3048DFAD2B81C7E8008FE168 /* NewBookView.swift in Sources */,
 				30B0B25F2B0BB187009B2886 /* MapView.swift in Sources */,
 				30B0B25A2B0BAEFC009B2886 /* LandmarkDetail.swift in Sources */,
+				300DC15F2B84E069001A8D69 /* BookSamples.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
